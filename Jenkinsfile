@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        build 'mvn clean compile'
+        sh 'sh \'mvn clean compile\''
       }
     }
   }
