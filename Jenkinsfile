@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        sh 'sh \'mvn clean compile\''
+        sh 'echo \'\'\'M2_HOME = ${M2_HOME}\'\'\''
       }
     }
   }
