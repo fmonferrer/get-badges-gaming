@@ -33,7 +33,7 @@ public class ParrotTest {
     @Test
     public void getSpeedNorwegianBlueParrot_nailed() {
         Parrot parrot = new Parrot(ParrotTypeEnum.NORWEGIAN_BLUE, 0, 0, true);
-        assertEquals(parrot.getSpeed(), 0.0);
+        assertEquals(parrot.getSpeed(), 1.0);
     }
 
     @Test
